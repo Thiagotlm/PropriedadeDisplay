@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade display</title>
+</head>
+<style>
+    body{
+     font-family: sans-serif;
+    }
+    .exemplo{
+        background-color: palevioletred;
+    }
+  
+    b{
+        display: inline;
+        margin: 10px;
+        padding: 20px;
+    }
+    .inline-block{
+        display: inline-block;
+        width: 200px;
+        height: 250px;
+
+    }
+    .menu{
+        background-color: lightblue;
+    }
+    .menu ul li{
+        display: inline-block;
+        padding: 20px 40px;
+        
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+</style>
+<body>
+    <h1>Propriedade display</h1>
+    <p>A propriedade display vai determinar como essas caixinhas retangulares irão se comportar na hora de serem exibidas na tela.</p>
+    <ul>
+        <li>border-widht</li>
+        <li>border-style</li>
+        <li>border-color</li>
+    </ul>
+    <h2>Exemplos:</h2>
+    <code>display: block;</code>
+    <br><br>
+    <div class="exemplo">Exemplo 01</div><br>
+    <p class="exemplo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quibusdam vitae est facilis doloremque incidunt consequuntur, molestiae ab quos, maiores dolorum dolor aliquam esse minus vel consequatur sapiente fuga eius.
+    </p>
+    <span class="exemplo">Exemplo 02</span>
+    <span class="exemplo">Exemplo 03</span><br><br>
+    <code>display: inline;</code><br><br>
+    <span class="exemplo">Exemplo inline 01</span>
+    <span class="exemplo">Exemplo inline 02</span><br><br>
+    <h2>Menu de nav</h2>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Link 01</a></li>
+            <li><a href="#">Link 02</a></li>
+            <li><a href="#">Link 03</a></li>
+        </ul>
+    </nav>
+  
+
+    
+</body>
+</html>
